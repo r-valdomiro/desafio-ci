@@ -1,4 +1,4 @@
-name: Desafio CI
+name: Desafio CI Full Cycle
 
 on:
   pull_request:
