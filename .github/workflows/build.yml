@@ -24,7 +24,7 @@ jobs:
       - name: Prepare for CI
         run: npm ci
 
-      - name: Test and Coverage  
+      - name: Test & Coverage  
         run: ./node_modules/.bin/jest --coverage
 
       - name: SonarCloud Scan
